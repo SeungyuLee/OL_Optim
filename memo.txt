@@ -1,0 +1,23 @@
+naive test result
+cifar 10, epoch 350, lr 0.1 fixed
+
+1. full Quantization
+Accuracy: 94.84%
+
+2. 8bit Quantization
+(1) threshold: 1.0 -> 94.68%
+(2) threshold: 0.99 -> 94.81%
+(3) threshold: 0.98 -> 94.83%
+(4) threshold: 0.97 -> 94.85%
+(5) threshold: 0.96 -> 94.85%
+(6) threshold: 0.95 -> 94.85%
+
+3. 4bit Quantization
+(1) threshold: 1.0 -> 90.75%
+(2) threshold: 0.99 -> 94.38%
+(3) threshold: 0.98 -> 94.27%
+(4) threshold: 0.97 -> 94.35%
+(5) threshold: 0.96 -> 94.55%
+(6) threshold: 0.95 -> 94.63%
+
+
